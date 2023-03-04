@@ -11255,3 +11255,8 @@ header.masthead .site-heading .h1 {
 .header-heading{
   font-size: 3rem;
 }
+
+.footer-logo{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
