@@ -69,3 +69,23 @@ h1,h5{
     padding:5px;
     
   }
+
+  /* COMPONENT */
+  .component-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0px;
+  }
+
+  .result-box{
+    background-color: #fff;
+    color:#000;
+    padding:5px;
+    
+  }
+  .slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+
+  
