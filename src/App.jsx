@@ -30,6 +30,7 @@ export default function App() {
           <div>
             <div>FIGHTER B</div>
             <div>Last Active</div>
+            <RangeSlider min={0} max={100} value={50} step={0.1} />
           </div>
         </div>
 

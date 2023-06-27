@@ -44,7 +44,7 @@ function RangeSlider({ min, max, value, step }) {
                 <small>{max}</small>
             </div>
             <div className="slider-container">
-                <input type="range" className="slider" min={min} max={max} ref={sliderRef} step={step} onInput={handleSliderInput} />
+                <input type="range" value={inputValue} className="slider" min={min} max={max} ref={sliderRef} step={step} onInput={handleSliderInput} />
                 <div className="slider-thumb" style={{ left: `calc(${sliderRange}% - 0.5em)` }}></div>
                 <div className="progress" style={{ width: `${sliderRange}%` }}></div>
             </div>
